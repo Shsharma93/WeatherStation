@@ -1,0 +1,207 @@
+
+/* ---------Set the Root window property-------------- */
+
+.root {
+    -fx-background-color: white;
+}
+
+/* ---------Set the Tap Pane Header property-------------- */
+
+
+.tab-pane .headers-region {
+    -fx-effect: dropshadow(two-pass-box, rgba(0, 0, 0, 0.6), 4, 0.0, 0, 0);
+
+    -fx-background-color: lime,
+    linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+    linear-gradient(#20262b, #191d22),
+    radial-gradient(center 50% 0%, radius 100%, rgba(114, 131, 148, 0.9), rgba(255, 255, 255, 0));
+
+}
+
+/* ---------Set the Tab property-------------- */
+
+
+.tab {
+    -fx-padding: 12px;
+
+    -fx-font-size: 16px;
+    -fx-background-color: #090a0c,
+    linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+    linear-gradient(#20262b, #191d22),
+    radial-gradient(center 50% 0%, radius 100%, rgba(114, 131, 148, 0.9), rgba(255, 255, 255, 0));
+
+    -fx-border-color: white;
+    -fx-font-family: "Arial";
+    -fx-font-width: bold;
+
+}
+
+/* ---------Set the Hover property on Tab-------------- */
+
+
+.tab:hover {
+    -fx-background-color: #000000,
+    linear-gradient(#7ebcea, #2f4b8f),
+    linear-gradient(#426ab7, #263e75),
+    linear-gradient(#395cab, #223768);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+    -fx-font-family: "Arial";
+}
+
+
+/* ---------Set the Tab Pane property-------------- */
+
+
+.tab-pane {
+    -fx-tab-min-width: 243px;
+    -fx-tab-min-height: 20px;
+    -fx-alignment: center;
+
+}
+
+
+/* ---------Set the Tab Pane Label property-------------- */
+
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+
+    -fx-font-weight: bold;
+}
+
+
+/* ---------Set the Button property-------------- */
+
+
+.button {
+    -fx-background-color: #090a0c,
+    linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+    linear-gradient(#20262b, #191d22),
+    radial-gradient(center 50% 0%, radius 100%, rgba(114, 131, 148, 0.9), rgba(255, 255, 255, 0));
+    -fx-background-radius: 5, 4, 3, 5;
+    -fx-background-insets: 0, 1, 2, 0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 20px;
+    -fx-padding: 5 10 5 10;
+
+}
+
+/* ---------Set the Button Hover property-------------- */
+
+
+.button:hover {
+
+    -fx-background-color: linear-gradient(white, #d0d0d0);
+    -fx-background-radius: 5, 4, 3, 5;
+    -fx-background-insets: 0, 1, 2, 0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+    -fx-font-family: "Arial";
+    -fx-text-fill: #090a0c,
+    linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+    linear-gradient(#20262b, #191d22),
+    radial-gradient(center 50% 0%, radius 100%, rgba(114, 131, 148, 0.9), rgba(255, 255, 255, 0));
+    -fx-font-size: 22px;
+    -fx-padding: 5 10 5 10;
+
+}
+
+
+/* ---------Set the WindSpeed Digital Display property-------------- */
+
+
+#dig1 {
+
+    -fx-fill: red;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+    -fx-font-size: 140px;
+    -fx-font-weight: bold;
+}
+
+/* ---------Set the Temperature Digital Display property-------------- */
+
+
+
+#dig2 {
+
+    -fx-fill: orange;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+    -fx-font-size: 140px;
+    -fx-font-weight: bold;
+    /*-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );*/
+}
+
+/* ---------Set the Insolation Digital Display property-------------- */
+
+
+#dig3 {
+
+    -fx-fill: limegreen;
+    -fx-font-size: 140px;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+    -fx-font-weight: bold;
+
+    /*-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );*/
+}
+
+/* ---------Set the Date.Time Stamp Digital Display property-------------- */
+
+
+#dig4 {
+
+    -fx-fill: #4286f4;
+    -fx-font-size: 90px;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+    -fx-font-weight: bold;
+
+}
+
+
+/* ---------Set the chart background property-------------- */
+
+
+.chart-plot-background {
+    -fx-background-color: #e2ecfe;
+}
+
+/* ---------Set the chart vertical grid lines property-------------- */
+
+.chart-vertical-grid-lines {
+    -fx-stroke: #3278fa;
+}
+
+/* ---------Set the chart horizontal grid lines property-------------- */
+
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #3278fa;
+}
+
+/* ---------Set the chart content property-------------- */
+
+
+.chart-content {
+    -fx-padding: 20px;
+}
+
+/* ---------Set the axis label property-------------- */
+
+
+.axis-label {
+    -fx-text-fill: red;
+}
+
+/* ---------Set the chart property-------------- */
+
+
+.chart {
+    -fx-background-color: rgba(0, 168, 355, 0.05);
+    -fx-border-color: rgba(5, 168, 355, 0.3);
+    -fx-background-radius: 2;
+    -fx-background-position: left center;
+    -fx-padding: 5px, 5px, 5px, 5px;
+}

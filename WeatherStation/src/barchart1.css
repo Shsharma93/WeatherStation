@@ -1,0 +1,25 @@
+
+/* ---------Set the Wind Speed barchart property-------------- */
+
+.data0.chart-bar {
+    -fx-background-color: red;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+    -fx-alignment: center;
+
+}
+
+/* ---------Set the wind speed barchart legend property-------------- */
+
+
+.chart-legend {
+    -fx-background-color: #f47302;
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
+
+/* ---------Set the wind speed barchart legend symbol property-------------- */
+
+
+.chart-legend-item{
+    -fx-text-fill: white;
+}
